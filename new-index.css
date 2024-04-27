@@ -1,0 +1,102 @@
+body {
+    width: 100%;
+    margin: auto;
+    line-height: normal;
+}
+
+.werpol-section {
+    height: 100vh;
+    width: 100%;
+}
+
+.werpol-header {
+    background-image: url('B6DEB181.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 80px;
+    height: calc(100vh - 80px)
+}
+
+.werpol-menu {
+    max-width: 100%;
+    height: 80px;
+    text-align: center;
+    font-size: 24px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.werpol-menu-item {
+    font-weight: 900;
+    cursor: pointer;
+    margin: 0 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.werpol-menu-logo {
+    height: 73.54%;
+    width: 13.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 80%;
+    cursor: pointer;
+    margin-right: auto;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.werpol-carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 0;
+}
+
+.werpol-carousel {
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
+    max-width: 70vw;
+    max-height: 455px;
+    min-width: 30vw;
+    padding: 3rem;
+}
+
+.werpol-carousel-slide {
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.werpol-carousel-slide-description {
+    font-size: 38px;
+}
+
+.werpol-about-container {
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+    gap: 10%;
+}
+
+.werpol-about {
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(49, 39, 131, 0.9));
+    font-size: 24px;
+    font-weight: 500;
+    text-align: right;
+    padding: 5rem;
+}
+
+.werpol-about-logo {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    object-fit: contain;
+}

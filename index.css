@@ -1,0 +1,1131 @@
+body {
+    width: 100%;
+    margin: auto;
+    line-height: normal;
+}
+
+.werpol-1-child {
+    position: absolute;
+    top: 9942px;
+    left: 0px;
+    background: linear-gradient(90deg, rgba(49, 39, 131, 0.9), rgba(11, 9, 29, 0.9));
+    width: 1440px;
+    height: 162px;
+}
+.werpol-1-item {
+    position: absolute;
+    top: 2614px;
+    left: 971px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(49, 39, 131, 0.9));
+    width: 390px;
+    height: 352px;
+}
+.werpol-1-inner {
+    position: absolute;
+    top: 2614px;
+    left: 525px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(49, 39, 131, 0.9));
+    width: 390px;
+    height: 352px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 2918px;
+    left: 1282px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(49, 39, 131, 0.5));
+    width: 232px;
+    height: 83px;
+    transform:  rotate(-180deg);
+    transform-origin: 0 0;
+}
+.werpol-1-child1 {
+    position: absolute;
+    top: 2614px;
+    left: 79px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(49, 39, 131, 0.9));
+    width: 390px;
+    height: 352px;
+}
+.werpol-1-child2 {
+    position: absolute;
+    top: 2918px;
+    left: 836px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(49, 39, 131, 0.5));
+    width: 232px;
+    height: 83px;
+    transform:  rotate(-180deg);
+    transform-origin: 0 0;
+}
+.b6deb181-icon {
+    position: absolute;
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+}
+.werpol-1-child3 {
+    position: absolute;
+    top: 296px;
+    left: 193px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
+    width: 1059px;
+    height: 455px;
+}
+.werpol-1-child4 {
+    position: absolute;
+    top: 1044px;
+    left: 473px;
+    
+}
+.werpol-1-child5 {
+    position: absolute;
+    top: 2383px;
+    left: 79px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(49, 39, 131, 0.9));
+    width: 232px;
+    height: 83px;
+}
+.werpol-1-child6 {
+    position: absolute;
+    top: 2918px;
+    left: 390px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(49, 39, 131, 0.5));
+    width: 232px;
+    height: 83px;
+    transform:  rotate(-180deg);
+    transform-origin: 0 0;
+}
+.oferta {
+    position: absolute;
+    top: 2125px;
+    left: 79px;
+    font-size: 30px;
+    color: #312783;
+    text-align: center;
+}
+.kompletny-zakresu-naszej {
+    margin: 0;
+}
+.kompletny-zakresu-naszej-container {
+    position: absolute;
+    top: 2187px;
+    left: 79px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1b1918;
+    display: inline-block;
+    width: 1257px;
+}
+.realizacje {
+    position: absolute;
+    top: 0px;
+    left: 2px;
+}
+.z-naszych-usug {
+    position: absolute;
+    top: 62px;
+    left: 0px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1b1918;
+    text-align: left;
+    display: inline-block;
+    width: 1282px;
+}
+.realizacje-parent {
+    position: absolute;
+    top: 4130px;
+    left: 77px;
+    width: 1282px;
+    height: 120px;
+    text-align: center;
+    font-size: 30px;
+    color: #312783;
+}
+.czytaj-wicej {
+    position: absolute;
+    top: 2865px;
+    left: 650px;
+}
+.czytaj-wicej1 {
+    position: absolute;
+    top: 2865px;
+    left: 204px;
+}
+.czytaj-wicej2 {
+    position: absolute;
+    top: 2865px;
+    left: 1096px;
+}
+.relokacje-maszyn-i-container {
+    position: absolute;
+    top: -586px;
+    left: 328px;
+    font-size: 48px;
+    font-weight: 500;
+}
+.polska-europa {
+    position: absolute;
+    top: -437px;
+    left: 328px;
+    font-size: 38px;
+}
+.relokacje-maszyn-i-container1 {
+    position: absolute;
+    top: 2687px;
+    left: 139px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.monta-maszyn-przemysowych-container {
+    position: absolute;
+    top: 2687px;
+    left: 600px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.prace-budowlane-i-container {
+    position: absolute;
+    top: 2687px;
+    left: 1029px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.e2fa7c7-icon {
+    position: absolute;
+    top: 8872px;
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+}
+.switch10-icon {
+    position: absolute;
+    height: 8.59%;
+    width: 17.09%;
+    top: 10.33%;
+    right: 77.42%;
+    bottom: 81.08%;
+    left: 5.49%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.werpol-1-child7 {
+    position: absolute;
+    top: 8934px;
+    left: 77px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
+    width: 1286px;
+    height: 954px;
+}
+.kontakt {
+    margin: 0;
+    font-size: 25px;
+}
+.mariusz-rostkowski1 {
+    font-weight: 600;
+}
+.blank-line2 {
+    margin: 0;
+    font-size: 18px;
+}
+.span {
+    font-weight: 500;
+}
+.dzia-utrzymania-ruchu {
+    font-weight: 800;
+}
+.kontakt-dzia-relokacji-container {
+    position: absolute;
+    top: 8976px;
+    left: 117px;
+    font-size: 20px;
+}
+.ul-gen-w {
+    margin: 0;
+    font-weight: 600;
+}
+.vat-no-nip {
+    margin: 0;
+    font-weight: 500;
+}
+.siedziba-ul-gen-container {
+    position: absolute;
+    top: 8978px;
+    left: 594px;
+    font-size: 20px;
+}
+.e2fa7e4-1-icon {
+    position: absolute;
+    top: 8976px;
+    left: 961px;
+    border-radius: 30px;
+    width: 363px;
+    height: 869px;
+    object-fit: cover;
+}
+.firma-werpol-rozpocza-container {
+    position: absolute;
+    top: 1118px;
+    left: 549px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+    display: inline-block;
+    width: 737px;
+}
+.a1e73-9468-48b4-8039-77f611672-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+    width: 400px;
+    height: 420px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.db314abd-e49d-46e9-9b91-15de9e-icon {
+    position: absolute;
+    top: 471px;
+    left: 443px;
+    border-radius: 30px;
+    width: 400px;
+    height: 420px;
+    object-fit: cover;
+}
+.img-3056-icon {
+    position: absolute;
+    top: 469px;
+    left: 886px;
+    border-radius: 30px;
+    width: 400px;
+    height: 422px;
+    object-fit: cover;
+}
+.d7d0927a-b880-4078-a16b-949300-icon {
+    position: absolute;
+    top: 469px;
+    left: 0px;
+    border-radius: 30px;
+    width: 400px;
+    height: 422px;
+    object-fit: cover;
+}
+.f1e1-b24e-4ec1-911d-45fca6d7ad-icon {
+    position: absolute;
+    top: 0px;
+    left: 443px;
+    border-radius: 30px;
+    width: 400px;
+    height: 420px;
+    object-fit: cover;
+}
+.img-3054-icon {
+    position: absolute;
+    top: 0px;
+    left: 886px;
+    border-radius: 30px;
+    width: 400px;
+    height: 420px;
+    object-fit: cover;
+}
+.img-3033-icon {
+    position: absolute;
+    top: 940px;
+    left: 443px;
+    border-radius: 30px;
+    width: 400px;
+    height: 420px;
+    object-fit: cover;
+}
+.img-3035-icon {
+    position: absolute;
+    top: 940px;
+    left: 0px;
+    border-radius: 30px;
+    width: 400px;
+    height: 420px;
+    object-fit: cover;
+}
+.a1e73-9468-48b4-8039-77f611672-parent {
+    position: absolute;
+    top: 5987px;
+    left: 79px;
+    width: 1286px;
+    height: 891px;
+    overflow-y: auto;
+    overflow: hidden;
+}
+.montae-i-relokacje {
+    position: absolute;
+    top: 4351px;
+    left: 79px;
+    font-weight: 500;
+    color: #1b1918;
+}
+.zdjcia {
+    position: absolute;
+    top: 4911px;
+    left: 79px;
+    font-weight: 500;
+    color: #1b1918;
+}
+.filmy {
+    position: absolute;
+    top: 5944px;
+    left: 88px;
+    font-weight: 500;
+    color: #1b1918;
+}
+.utrzymanie-ruchu {
+    position: absolute;
+    top: 4351px;
+    left: 738px;
+    font-weight: 500;
+    color: #1b1918;
+}
+.whatsapp-image-2022-11-14-at-0 {
+    position: absolute;
+    top: 469px;
+    left: 0px;
+    border-radius: 30px;
+    width: 400px;
+    height: 420px;
+    object-fit: cover;
+}
+.b7f-26d4-4605-b2e8-455e10f216f-icon {
+    position: absolute;
+    top: 469px;
+    left: 886px;
+    border-radius: 30px;
+    width: 400px;
+    height: 420px;
+    object-fit: cover;
+}
+.img-3061-icon {
+    position: absolute;
+    top: 469px;
+    left: 443px;
+    border-radius: 30px;
+    width: 400px;
+    height: 420px;
+    object-fit: cover;
+}
+.img-3038-icon {
+    position: absolute;
+    top: 938px;
+    left: 0px;
+    border-radius: 30px;
+    width: 400px;
+    height: 420px;
+    object-fit: cover;
+}
+.ce4b4ae9-a6ba-42be-84b5-5caf6f-icon {
+    position: absolute;
+    top: 938px;
+    left: 886px;
+    border-radius: 30px;
+    width: 400px;
+    height: 420px;
+    object-fit: cover;
+}
+.img-3028-icon {
+    position: absolute;
+    top: 938px;
+    left: 443px;
+    border-radius: 30px;
+    width: 400px;
+    height: 420px;
+    object-fit: cover;
+}
+.x-parent {
+    position: absolute;
+    top: 4954px;
+    left: 77px;
+    width: 1286px;
+    height: 889px;
+    overflow-y: auto;
+    overflow: hidden;
+}
+.group-icon {
+    position: absolute;
+    height: 0.39%;
+    width: 1.19%;
+    top: 75.3%;
+    right: 62.49%;
+    bottom: 24.31%;
+    left: 36.32%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.werpol-1-child8 {
+    position: absolute;
+    height: 0.39%;
+    width: 1.19%;
+    top: 63.48%;
+    right: 4.01%;
+    bottom: 36.13%;
+    left: 94.79%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.werpol-1-child9 {
+    position: absolute;
+    height: 0.39%;
+    width: 1.19%;
+    top: 53.25%;
+    right: 4.01%;
+    bottom: 46.36%;
+    left: 94.79%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.zasaw-referencje-1-icon {
+    position: absolute;
+    top: 7092px;
+    left: 624px;
+    width: 739px;
+    height: 1045px;
+    object-fit: cover;
+}
+.zaufali-nam-rwnie {
+    position: absolute;
+    top: 8351px;
+    left: 77px;
+    font-size: 30px;
+    color: #312783;
+    text-align: center;
+}
+.azpiaran-polska-sp-z-oo-icon {
+    position: absolute;
+    top: 995px;
+    left: 75px;
+    width: 312px;
+    height: 102px;
+    object-fit: cover;
+}
+.kisspng-lear-corporation-logo-icon {
+    position: absolute;
+    top: 861px;
+    left: 67px;
+    width: 329px;
+    height: 87px;
+    object-fit: cover;
+}
+.viacon-logo-orange-icon {
+    position: absolute;
+    top: 734px;
+    left: 55px;
+    width: 353px;
+    height: 91px;
+    object-fit: cover;
+}
+.ardagh-group-logo-portrait-1-icon {
+    position: absolute;
+    top: 448px;
+    left: 103px;
+    width: 257px;
+    height: 144px;
+    object-fit: cover;
+}
+.e2fa7c3-1-icon {
+    position: absolute;
+    top: 606px;
+    left: 21px;
+    width: 392px;
+    height: 108px;
+    object-fit: cover;
+}
+.plus-minus-engineering {
+    position: absolute;
+    top: 1282px;
+    left: 16px;
+    width: 430px;
+    height: 138px;
+    object-fit: cover;
+}
+.e2fa7aa-1-icon {
+    position: absolute;
+    top: 1097px;
+    left: 0px;
+    width: 435px;
+    height: 175px;
+    object-fit: cover;
+}
+.ta-1-icon {
+    position: absolute;
+    top: 298px;
+    left: 28px;
+    width: 407px;
+    height: 208px;
+    object-fit: cover;
+}
+.nowe-logo-maspex-icon {
+    position: absolute;
+    top: 81px;
+    left: 67px;
+    width: 329px;
+    height: 142px;
+    object-fit: cover;
+}
+.e2fa7c1-1-icon {
+    position: absolute;
+    top: 223px;
+    left: 109px;
+    width: 245px;
+    height: 118px;
+    object-fit: cover;
+}
+.e2fa7ad-icon {
+    position: absolute;
+    top: 0px;
+    left: 16px;
+    width: 430px;
+    height: 81px;
+    object-fit: cover;
+}
+.azpiaran-polska-sp-z-oo-parent {
+    position: absolute;
+    top: 7225px;
+    left: 77px;
+    width: 446px;
+    height: 825px;
+    overflow: hidden;
+}
+.frame-icon {
+    position: absolute;
+    top: 8414px;
+    left: 77px;
+    width: 1270px;
+    height: 318px;
+    overflow-x: auto;
+}
+.refenercje {
+    position: absolute;
+    top: 7092px;
+    left: 79px;
+    font-size: 30px;
+    color: #312783;
+    text-align: center;
+}
+.werpol-1-child10 {
+    position: absolute;
+    top: 4385px;
+    left: 77px;
+    border-radius: 30px;
+    background-color: #d9d9d9;
+    width: 628px;
+    height: 425px;
+}
+.werpol-1-child11 {
+    position: absolute;
+    top: 4385px;
+    left: 733px;
+    border-radius: 30px;
+    background-color: #d9d9d9;
+    width: 628px;
+    height: 425px;
+}
+.e2fa815-1-icon {
+    position: absolute;
+    top: 4385px;
+    left: 733px;
+    border-radius: 30px;
+    width: 628px;
+    height: 425px;
+    object-fit: cover;
+}
+.e2fa816-1-icon {
+    position: absolute;
+    top: 4385px;
+    left: 77px;
+    border-radius: 30px;
+    width: 626px;
+    height: 425px;
+    object-fit: cover;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+    width: 100%;
+    height: 79px;
+}
+.o-nas {
+    position: absolute;
+    top: 25px;
+    left: 430px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.oferta1 {
+    position: absolute;
+    top: 25px;
+    left: 555px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.sprzty {
+    position: absolute;
+    top: 25px;
+    left: 702px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.realizacje1 {
+    position: absolute;
+    top: 25px;
+    left: 862px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.referencje {
+    position: absolute;
+    top: 25px;
+    left: 1065px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.kontakt1 {
+    position: absolute;
+    top: 25px;
+    left: 1275px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.switch10-icon1 {
+    position: absolute;
+    height: 73.54%;
+    width: 13.59%;
+    top: 15.58%;
+    right: 80.88%;
+    bottom: 10.88%;
+    left: 5.53%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+}
+.rectangle-parent {
+    position: absolute;
+    
+}
+.pobierz-nasz-katalog-container {
+    position: absolute;
+    top: 2403px;
+    left: 126px;
+}
+.sprzty1 {
+    position: absolute;
+    top: 3180px;
+    left: 79px;
+    font-size: 30px;
+    color: #312783;
+    text-align: center;
+}
+.b6deb182-icon {
+    position: absolute;
+    top: 3242px;
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+}
+.werpol-1-child12 {
+    position: absolute;
+    top: 3282px;
+    left: 971px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
+    width: 390px;
+    height: 274px;
+}
+.werpol-1-child13 {
+    position: absolute;
+    top: 3594px;
+    left: 971px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
+    width: 390px;
+    height: 266px;
+}
+.werpol-1-child14 {
+    position: absolute;
+    top: 3282px;
+    left: 525px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
+    width: 390px;
+    height: 274px;
+}
+.werpol-1-child15 {
+    position: absolute;
+    top: 3594px;
+    left: 525px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
+    width: 390px;
+    height: 266px;
+}
+.werpol-1-child16 {
+    position: absolute;
+    top: 3282px;
+    left: 79px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
+    width: 390px;
+    height: 274px;
+}
+.werpol-1-child17 {
+    position: absolute;
+    top: 3586px;
+    left: 79px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
+    width: 390px;
+    height: 274px;
+}
+.transport-wasny {
+    position: absolute;
+    top: 3330px;
+    left: 135px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.wzki-widowe {
+    position: absolute;
+    top: 3634px;
+    left: 157px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.rolki-transportowe {
+    position: absolute;
+    top: 3330px;
+    left: 566px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.hydrauliczna-suwnica-bramowa-container {
+    position: absolute;
+    top: 3634px;
+    left: 580px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.dwigi-samojezdne {
+    position: absolute;
+    top: 3336px;
+    left: 1022px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.podesty-ruchome {
+    position: absolute;
+    top: 3634px;
+    left: 1032px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.werpol-1-child18 {
+    position: absolute;
+    top: 3507px;
+    left: 390px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(49, 39, 131, 0.5));
+    width: 232px;
+    height: 83px;
+    transform:  rotate(-180deg);
+    transform-origin: 0 0;
+    cursor: pointer;
+}
+.werpol-1-child19 {
+    position: absolute;
+    top: 3811px;
+    left: 390px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(49, 39, 131, 0.5));
+    width: 232px;
+    height: 83px;
+    transform:  rotate(-180deg);
+    transform-origin: 0 0;
+    cursor: pointer;
+}
+.werpol-1-child20 {
+    position: absolute;
+    top: 3507px;
+    left: 836px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(49, 39, 131, 0.5));
+    width: 232px;
+    height: 83px;
+    transform:  rotate(-180deg);
+    transform-origin: 0 0;
+    cursor: pointer;
+}
+.werpol-1-child21 {
+    position: absolute;
+    top: 3811px;
+    left: 836px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(49, 39, 131, 0.5));
+    width: 232px;
+    height: 83px;
+    transform:  rotate(-180deg);
+    transform-origin: 0 0;
+    cursor: pointer;
+}
+.werpol-1-child22 {
+    position: absolute;
+    top: 3507px;
+    left: 1279px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(49, 39, 131, 0.5));
+    width: 232px;
+    height: 83px;
+    transform:  rotate(-180deg);
+    transform-origin: 0 0;
+    cursor: pointer;
+}
+.werpol-1-child23 {
+    position: absolute;
+    top: 3811px;
+    left: 1279px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(49, 39, 131, 0.5));
+    width: 232px;
+    height: 83px;
+    transform:  rotate(-180deg);
+    transform-origin: 0 0;
+    cursor: pointer;
+}
+.czytaj-wicej3 {
+    position: absolute;
+    top: 3758px;
+    left: 204px;
+}
+.czytaj-wicej4 {
+    position: absolute;
+    top: 3454px;
+    left: 650px;
+}
+.czytaj-wicej5 {
+    position: absolute;
+    top: 3758px;
+    left: 650px;
+}
+.czytaj-wicej6 {
+    position: absolute;
+    top: 3454px;
+    left: 1093px;
+}
+.czytaj-wicej7 {
+    position: absolute;
+    top: 3758px;
+    left: 1093px;
+}
+.czytaj-wicej8 {
+    position: absolute;
+    top: 3454px;
+    left: 204px;
+}
+.flag-6339160-1920-icon {
+    position: absolute;
+    top: 9102px;
+    left: 361px;
+    width: 24px;
+    height: 16px;
+    object-fit: cover;
+}
+.germany-4894687-1920-icon {
+    position: absolute;
+    top: 9456px;
+    left: 295px;
+    width: 23px;
+    height: 15px;
+    object-fit: cover;
+}
+.union-jack-26119-1920-icon {
+    position: absolute;
+    top: 9456px;
+    left: 269px;
+    width: 23px;
+    height: 15px;
+    object-fit: cover;
+}
+.union-jack-26119-1920-icon1 {
+    position: absolute;
+    top: 9624px;
+    left: 258px;
+    width: 23px;
+    height: 15px;
+    object-fit: cover;
+}
+.union-jack-26119-1920-icon2 {
+    position: absolute;
+    top: 9102px;
+    left: 334px;
+    width: 24px;
+    height: 16px;
+    object-fit: cover;
+}
+.relokacje-maszyn-i-container2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 500;
+}
+.polska-europa1 {
+    position: absolute;
+    top: 149px;
+    left: 0px;
+    font-size: 38px;
+}
+.kompleksowa-realizacja-prac-container {
+    position: absolute;
+    top: 0px;
+    left: 1163px;
+    font-weight: 500;
+}
+.montae-przemysowe {
+    position: absolute;
+    top: 0px;
+    left: 2342px;
+    font-weight: 500;
+}
+.utrzymanie-ruchu1 {
+    position: absolute;
+    top: 0px;
+    left: 3444px;
+    font-weight: 500;
+}
+.wasne-zaplecze-techniczne {
+    position: absolute;
+    top: 0px;
+    left: 4546px;
+    font-weight: 500;
+}
+.niezawodna-kadra1 {
+    white-space: pre-wrap;
+}
+.span6 {
+    color: rgba(255, 255, 255, 0);
+}
+.wykwalifikowana-oraz-niezawodn-container {
+    position: absolute;
+    top: 0px;
+    left: 5666px;
+    font-weight: 500;
+}
+.od-fundamentw-po {
+    position: absolute;
+    top: 149px;
+    left: 1163px;
+    font-size: 38px;
+}
+.konstrukcje-stalowe-i-container {
+    position: absolute;
+    top: 102px;
+    left: 2342px;
+    font-size: 38px;
+}
+.wsparcie-linii-produkcyjnych-container {
+    position: absolute;
+    top: 102px;
+    left: 3444px;
+    font-size: 38px;
+}
+.sprzt-montaowy-i-container {
+    position: absolute;
+    top: 111px;
+    left: 4546px;
+    font-size: 38px;
+}
+.najlepsi-specjalici-w {
+    position: absolute;
+    top: 149px;
+    left: 5666px;
+    font-size: 38px;
+}
+.relokacje-maszyn-i-zakadw-pr-parent {
+    position: absolute;
+    top: 426px;
+    left: 304px;
+    width: 915px;
+    height: 203px;
+    overflow-x: auto;
+    font-size: 48px;
+    overflow: hidden;
+}
+.werpol-1-child24 {
+    position: absolute;
+    top: 9977px;
+    left: 531px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(49, 39, 131, 0.5), rgba(11, 9, 29, 0.5));
+    width: 378px;
+    height: 89px;
+    cursor: pointer;
+}
+.strefa-pracownika {
+    position: absolute;
+    top: 10011px;
+    left: 617px;
+    text-align: center;
+}
+.werpol-1-child25 {
+    position: absolute;
+    top: 2383px;
+    left: 357px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(49, 39, 131, 0.9));
+    width: 232px;
+    height: 83px;
+}
+.certyfikat-iso-9001-container {
+    position: absolute;
+    top: 2403px;
+    left: 408px;
+}
+.werpol-1 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 10102px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-family: Montserrat;
+}
+
+.wspieramy-jawiszowice {
+    height: 130px;
+}
+
+.wspieramy-fundacja {
+    height: 130px;
+}
+
+.wspieramy {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.werpol-section {
+    max-height: 100vh;
+    width: 100%;
+}
