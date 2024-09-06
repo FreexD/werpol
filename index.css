@@ -1,3 +1,45 @@
+body{
+    font-family: Montserrat;
+}
+
+h1{
+    font-size: 6em;
+    font-size: calc(2em + 2vw);
+    margin:0;
+}
+
+.section{
+    color: #fff;
+    text-align:center;
+}
+
+/* Backgrounds colors for sections */
+
+
+.fp-section:nth-child(1){
+    background-image: url('B6DEB181.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fp-section:nth-child(9){
+    background-image: url('6E2FA7C7.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 2150px) {
+    .fp-section:nth-child(1){ 
+        background-size: cover; 
+    }
+
+    .fp-section:nth-child(9){ 
+        background-size: cover; 
+    }
+}
+
 body {
     width: 100%;
     margin: auto;
@@ -109,19 +151,6 @@ body {
     font-size: 30px;
     color: #312783;
     text-align: center;
-}
-.kompletny-zakresu-naszej {
-    margin: 0;
-}
-.kompletny-zakresu-naszej-container {
-    position: absolute;
-    top: 2187px;
-    left: 79px;
-    font-size: 24px;
-    font-weight: 500;
-    color: #1b1918;
-    display: inline-block;
-    width: 1257px;
 }
 .realizacje {
     position: absolute;
@@ -243,12 +272,6 @@ body {
 }
 .dzia-utrzymania-ruchu {
     font-weight: 800;
-}
-.kontakt-dzia-relokacji-container {
-    position: absolute;
-    top: 8976px;
-    left: 117px;
-    font-size: 20px;
 }
 .ul-gen-w {
     margin: 0;
