@@ -1,8 +1,7 @@
-import './fullpage.js'
 import 'fslightbox'
 
 
-new fullpage('#fullpage', {
+new fullpage('#app', {
     menu: '.werpol-menu',
     anchors: ['intro', 'about', 'offer', 'equipment', 'implementations', 'images', 'movies', 'references', 'contact'],
     

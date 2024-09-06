@@ -17,14 +17,14 @@ h1{
 
 
 .fp-section:nth-child(1){
-    background-image: url('B6DEB181.png');
+    background-image: url('/B6DEB181.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .fp-section:nth-child(9){
-    background-image: url('6E2FA7C7.png');
+    background-image: url('/6E2FA7C7.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
