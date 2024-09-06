@@ -1,3 +1,5 @@
+html { scroll-behavior: smooth; }
+
 body {
     width: 100%;
     margin: auto;
@@ -111,3 +113,259 @@ body {
     object-fit: contain;
     margin-right: 5rem;
 }
+
+.werpol-offer {
+    display: flex;
+    align-items: center;
+}
+
+.werpol-offer-container {
+    margin: 3rem;
+}
+
+.werpol-offer-title {
+    font-size: 30px;
+    color: #312783;
+}
+
+.werpol-offer-description {
+    font-size: 24px;
+    font-weight: 500;
+    color: #1b1918;
+    text-align: justify;
+    margin-top: 25px;
+}
+
+.werpol-offer-button-list {
+    display: flex;
+    gap: 46px;
+}
+
+.werpol-offer-button {
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(49, 39, 131, 0.9));
+    width: 232px;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.werpol-offer-button-text {
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-family: Montserrat;
+    padding: 20px 46px;
+}
+
+.werpol-offer-tile-list {
+    margin-top: 150px;
+    display: flex;
+    gap: 56px;
+}
+
+.werpol-offer-tile {
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(49, 39, 131, 0.9));
+    min-width: 390px;
+    height: 352px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.werpol-offer-tile-title {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    font-family: Montserrat;
+    margin: 60px;
+}
+
+.werpol-offer-tile-button {
+    border-radius: 20px;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.5), rgba(49, 39, 131, 0.5));
+    width: 232px;
+    height: 83px;
+    border: 0;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.werpol-offer-tile-button-text {
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-family: Montserrat;
+    padding: 30px 40px;
+}
+
+.werpol-equipment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.werpol-equipment-title {
+    padding: 3rem;
+    font-size: 30px;
+    color: #312783;
+}
+
+.werpol-equipment-tile-background {
+    background-image: url('B6DEB182.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.werpol-equipment-container {
+    padding: 3rem;
+    display: flex;
+    gap: 56px;
+    flex-wrap: wrap;
+}
+
+.werpol-equipment-tile {
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
+    max-width: 390px;
+    height: 274px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.werpol-equipment-tile-title {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    font-family: Montserrat;
+    margin: 48px;
+}
+
+.werpol-equipment-tile-button {
+    border-radius: 20px;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.5), rgba(49, 39, 131, 0.5));
+    width: 232px;
+    height: 83px;
+    border: 0;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.werpol-equipment-tile-button-text {
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-family: Montserrat;
+    padding: 30px 40px;
+}
+
+.werpol-implementations {
+    display: flex;
+    align-items: center;
+}
+
+.werpol-implementations-container {
+    margin: 3rem;
+}
+
+.werpol-implementations-title {
+    font-size: 30px;
+    color: #312783;
+}
+
+.werpol-implementations-description {
+    font-size: 24px;
+    font-weight: 500;
+    color: #1b1918;
+    text-align: justify;
+    margin-top: 25px;
+}
+
+.werpol-implementations-maps-container {
+    display: flex;
+    gap: 30px;
+}
+
+.werpol-implementations-map-title {
+    font-weight: 500;
+    color: #1b1918;
+}
+
+.werpol-implementations-map {
+    flex-grow: 1;
+}
+
+.werpol-implementations-map iframe {
+    width: 100% !important;
+    height: 425px;
+    border-radius: 30px;
+    outline: 0;
+    border: 0;
+}
+
+.werpol-images {
+    display: flex;
+    align-items: center;
+}
+
+.werpol-images-container {
+    margin: 3rem;
+}
+
+.werpol-images-title {
+    font-weight: 500;
+    color: #1b1918
+}
+
+.werpol-images-grid {
+    display: flex;
+    gap: 43px;
+    flex-wrap: wrap;
+}
+
+.werpol-images-image {
+    border-radius: 30px;
+    max-width: 400px;
+    height: 420px;
+    object-fit: cover;
+    flex-grow: 1;
+}
+
+.werpol-movies {
+    display: flex;
+    align-items: center;
+}
+
+.werpol-movies-container {
+    margin: 3rem;
+}
+
+.werpol-movies-title {
+    font-weight: 500;
+    color: #1b1918
+}
+
+.werpol-movies-grid {
+    display: flex;
+    gap: 43px;
+    flex-wrap: wrap;
+}
+
+.werpol-movies-movie {
+    border-radius: 30px;
+    max-width: 400px;
+    height: 420px;
+    object-fit: cover;
+    flex-grow: 1;
+}
+
+
