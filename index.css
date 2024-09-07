@@ -1,3 +1,7 @@
+:root {
+    --breakpoint-sm: 400px;
+}
+
 body{
     font-family: Montserrat;
 }
@@ -16,23 +20,23 @@ h1{
 /* Backgrounds colors for sections */
 
 
-.fp-section:nth-child(1){
+.fp-section:nth-child(1) {
     background-image: url('/B6DEB181.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center 80%;
 }
 
-.fp-section:nth-child(9){
+.fp-section:nth-child(9) .fp-bg {
     background-image: url('/6E2FA7C7.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center 80%;
 }
 
-@media (max-width: 2150px) {
+@media (max-width: var(--breakpoint-sm)) {
     .fp-section:nth-child(1){ 
-        background-size: cover; 
+        background-color: red; 
     }
 
     .fp-section:nth-child(9){ 
