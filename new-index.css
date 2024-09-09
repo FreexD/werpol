@@ -65,7 +65,7 @@ body {
     max-width: 100%;
     height: 80px;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
     display: flex;
     align-items: center;
@@ -73,7 +73,6 @@ body {
     padding: 0 30px;
     top:0;
     left:0;
-    height: 100px;
     z-index: 70;
     width: calc(100% - 60px);
 }
@@ -96,7 +95,7 @@ body {
 }
 
 .werpol-menu-item {
-    font-weight: 900;
+    font-weight: 600;
     cursor: pointer;
     margin: 0 15px;
     height: 100%;
@@ -112,6 +111,7 @@ body {
 .werpol-menu-logo {
     display: flex;
     margin-right: auto;
+    width: 150px;
 }
 
 .werpol-carousel-container {
@@ -147,7 +147,9 @@ body {
 
 .werpol-about-container {
     display: flex;
-    padding: 0 clamp(1rem, 5vw, 3rem);
+    align-items: center;
+    justify-content: center;
+    padding: 0 clamp(1rem, 5vw, 2rem);
     padding-top: 120px;
 }
 
@@ -157,7 +159,7 @@ body {
     font-size: 24px;
     font-weight: 500;
     text-align: right;
-    padding: clamp(1rem, 4vw, 5rem);
+    padding: clamp(1rem, 4vw, 2rem);
     -webkit-box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
     -moz-box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
     box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
@@ -165,13 +167,14 @@ body {
 
 .werpol-about-logo {
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
     max-width: 100%;
     min-width: 10%;
     overflow: hidden;
     min-height: 100%;
-    object-fit: contain;
-    margin-right: 5rem;
+    object-fit: cover;
+    margin-right: 3rem;
+    display: none;
 }
 
 @media (max-width: 1024px) {
@@ -505,6 +508,7 @@ body {
 
 .werpol-footer .werpol-carousel-container {
     align-items: start;
+    padding: 0 2rem;
 }
 
 .werpol-footer-container {
@@ -577,7 +581,7 @@ body {
     -webkit-box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
     -moz-box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
     box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
-    max-width: calc(100vw - 2rem);
+    max-width: min(100%, calc(100vw - 2rem));
 }
 
 .werpol-references {
