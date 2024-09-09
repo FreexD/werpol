@@ -30,16 +30,22 @@ h1{
 
 .fp-section:nth-child(1) {
     background-image: url('/B6DEB181.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center 80%;
+}
+
+.fp-section:nth-child(4) {
+    background-image: url('/B6DEB182.png');
 }
 
 .fp-section:nth-child(9) {
     background-image: url('/6E2FA7C7.png');
+}
+
+.section,
+.slide{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 80%;
+    background-attachment: fixed;
 }
 
 body {
@@ -48,15 +54,7 @@ body {
     line-height: normal;
 }
 
-#app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-}
-
 .werpol-section {
-    height: 100vh;
     width: 100%;
     max-width: 1440px;
 }
@@ -97,10 +95,14 @@ body {
 .werpol-menu-item {
     font-weight: 600;
     cursor: pointer;
-    margin: 0 15px;
+    padding: 0 15px;
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+.werpol-menu-item.active {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
 }
 
 .werpol-menu-item a {
@@ -135,6 +137,7 @@ body {
 .werpol-carousel-slide {
     font-weight: 500;
     font-size: clamp(18px, 8vw, 48px);
+    text-align: left;
 }
 
 .werpol-carousel-slide-description {
@@ -145,12 +148,26 @@ body {
     max-width: 100% !important;
 }
 
+.fp-viewing-intro-0 #fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background-color: #fff;
+}
+
+.fp-slidesNav.fp-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.fp-slidesNav.fp-bottom ul {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
+    border-radius: 30px;
+    display: flex;
+}
+
 .werpol-about-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 clamp(1rem, 5vw, 2rem);
-    padding-top: 120px;
+    padding: 24px;
 }
 
 .werpol-about {
@@ -167,14 +184,12 @@ body {
 
 .werpol-about-logo {
     height: 100%;
-    /* width: 100%; */
     max-width: 100%;
     min-width: 10%;
     overflow: hidden;
     min-height: 100%;
     object-fit: cover;
     margin-right: 3rem;
-    display: none;
 }
 
 @media (max-width: 1024px) {
@@ -194,9 +209,7 @@ body {
 }
 
 .werpol-offer-container {
-    margin: clamp(1rem, 2.5vw, 3rem);
-    max-width: 1440px;
-    margin-top: 100px;
+    padding: clamp(1rem, 2.5vw, 3rem);
 }
 
 .werpol-offer-title {
@@ -231,6 +244,15 @@ body {
     -webkit-box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
     -moz-box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
     box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
+    text-decoration: none;
+}
+
+
+.werpol-offer-button:hover {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 52%, rgba(49, 39, 131, 0.9));
+    -webkit-box-shadow: 14px 15px 21px -12px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 14px 15px 21px -12px rgba(66, 68, 90, 1);
+    box-shadow: 14px 15px 21px -12px rgba(66, 68, 90, 1);
 }
 
 .werpol-offer-button-text {
@@ -305,13 +327,7 @@ body {
     font-size: clamp(16px, 2vw, 30px);
     color: #312783;
     text-align: left;
-}
-
-.werpol-equipment-tile-background {
-    background-image: url('/B6DEB182.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center 80%;
+    display: none;
 }
 
 .werpol-equipment-container {
@@ -329,23 +345,77 @@ body {
     -moz-box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
     box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
     text-align: left;
-    width: calc(100vw - 6rem);
+    width: calc(100vw - 10rem);
+    min-height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-height: 80vh;
+    gap: 16px;
+}
+
+@media (max-width: 1024px) {
+    .werpol-equipment-tile-column {
+        width: 100%;
+    }
+
+    .werpol-equipment-tile {
+        overflow-y: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .werpol-equipment-tile {
+        max-height: 40vh;
+    }
+
+    .werpol-equipment-tile-column {
+        max-width: 50%;
+    }
+    
+    .werpol-equipment-tile-column:nth-child(2) {
+        text-align: right !important;
+        overflow-y: auto;
+        max-height: 100%;
+        padding-right: 16px;
+        max-width: calc(50% - 32px);
+    }
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,.4);
+    border-radius: 16px;
+    border: 4px solid transparent;
 }
 
 .werpol-equipment-tile-title {
     font-size: clamp(14px, 2.5vw, 25px);
     font-weight: 500;
     font-family: Montserrat;
-    margin: 30px 0;
-    text-align: left;
+    margin: clamp(16px, 2vw, 30px) 0;
+}
+
+.werpol-equipment-tile-subtitle {
+    font-size: clamp(12px, 2.5vw, 18px);
+    font-weight: 600;
+    font-family: Montserrat;
+    padding-bottom: 20px;
 }
 
 .werpol-equipment-tile-text {
     font-size: clamp(12px, 2.5vw, 18px);
-    font-weight: regular;
-    text-align: left;
+    font-weight: 500;
     font-family: Montserrat;
     padding-bottom: 20px;
+}
+
+.werpol-equipment-tile-text ul {
+    list-style-position: inside;
 }
 
 .werpol-equipment-tile-img {
@@ -375,8 +445,6 @@ body {
 
 .werpol-implementations {
     display: flex;
-    padding-top: 100px;
-    max-height: calc(100vh - 100px);
 }
 
 .werpol-implementations-container {
@@ -426,8 +494,6 @@ body {
 
 .werpol-images {
     display: flex;
-    padding-top: 100px;
-    max-height: calc(100vh - 100px);
 }
 
 .werpol-images-container {
@@ -467,12 +533,11 @@ body {
 
 .werpol-movies {
     display: flex;
-    padding-top: 100px;
-    height: calc(100vh - 100px);
 }
 
 .werpol-movies-container {
     width: 100%;
+    padding: 24px;
 }
 
 .werpol-movies-title {
@@ -480,6 +545,7 @@ body {
     font-weight: 500;
     color: #1b1918;
     text-align: left;
+    margin-top: 0;
 }
 
 .werpol-movies-grid {
@@ -502,8 +568,6 @@ body {
 
 .werpol-footer {
     max-width: 100% !important;
-    padding-top: 150px;
-    max-height: calc(100vh - 150px);
 }
 
 .werpol-footer .werpol-carousel-container {
@@ -586,8 +650,6 @@ body {
 
 .werpol-references {
     display: flex;
-    padding-top: 100px;
-    max-height: calc(100vh - 100px);
 }
 
 .werpol-references-container {

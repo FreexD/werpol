@@ -1151,8 +1151,3 @@ body {
     display: flex;
     align-items: center;
 }
-
-.werpol-section {
-    max-height: 100vh;
-    width: 100%;
-}

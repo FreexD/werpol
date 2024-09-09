@@ -9,9 +9,13 @@ new fullpage('#app', {
     slidesNavigation: true,
     slidesNavPosition: 'bottom', // Default
 
+    paddingTop: '80px',
+
+    css3: false,
+
     controlArrows: false,
 
-    normalScrollElements: '.werpol-references-preview-companies',
+    normalScrollElements: '.normal-scroll',
 
     // Get your license at https://alvarotrigo.com/fullPage/pricing
     licenseKey: 'xxxxxxxxxxxxxxxxxxxxxxxxx'
