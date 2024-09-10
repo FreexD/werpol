@@ -340,17 +340,17 @@ body {
 .werpol-equipment-tile {
     border-radius: 30px;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
-    padding: clamp(12px, 2.5vw, 20px) clamp(20px, 5vw, 40px);
+    padding: clamp(12px, 2.5vw, 20px) clamp(12px, 2.5vw, 20px);
     -webkit-box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
     -moz-box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
     box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
     text-align: left;
-    width: calc(100vw - 10rem);
+    width: calc(100vw - 4rem);
     min-height: 40vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-height: 80vh;
+    max-height: 70vh;
     gap: 16px;
 }
 
@@ -366,7 +366,7 @@ body {
 
 @media (min-width: 1024px) {
     .werpol-equipment-tile {
-        max-height: 40vh;
+        max-height: 60vh;
     }
 
     .werpol-equipment-tile-column {
@@ -416,6 +416,7 @@ body {
 
 .werpol-equipment-tile-text ul {
     list-style-position: inside;
+    padding-left: clamp(12px, 2.5vw, 18px);
 }
 
 .werpol-equipment-tile-img {
@@ -657,7 +658,7 @@ body {
 }
 
 .werpol-references-title {
-    font-size: 30px;
+    font-size: clamp(16px, 2vw, 30px);
     color: #312783;
     font-weight: bold;
     text-align: left;
@@ -689,6 +690,7 @@ body {
 
 .werpol-references-preview-references img {
     max-width: 100%;
+    max-height: 100%;
 }
 
 .werpol-references-preview-references iframe {
@@ -702,3 +704,55 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.werpol-references-marquee-title {
+    margin-top: clamp(12px, 8vw, 50px);
+}
+
+:root {
+    --size: clamp(10rem, 1rem + 40vmin, 30rem);
+    --gap: calc(var(--size) / 14);
+    --duration: 60s;
+    --scroll-start: 0;
+    --scroll-end: calc(-100% - var(--gap));
+}
+
+.marquee {
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+    max-width: min(calc(100vw - 3rem), calc(1440px - 3rem));
+    max-height: clamp(2rem, 5vw, 8rem);
+    mask-image: linear-gradient(
+        var(--mask-direction, to right),
+        hsl(0 0% 0% / 0),
+        hsl(0 0% 0% / 1) 20%,
+        hsl(0 0% 0% / 1) 80%,
+        hsl(0 0% 0% / 0)
+    );
+}
+
+.marquee__group {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: var(--gap);
+    min-width: 100%;
+    animation: scroll-x var(--duration) linear infinite;
+}
+
+@keyframes scroll-x {
+    from {
+        transform: translateX(var(--scroll-start));
+    }
+    to {
+        transform: translateX(var(--scroll-end));
+    }
+}
+
+.werpol-references-marquee-image {
+    height: clamp(2rem, 5vw, 8rem);
+}
+  
