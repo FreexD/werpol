@@ -65,6 +65,26 @@
 		<div data-menuanchor="implementations" class="werpol-menu-item"><a href="#5">REALIZACJE</a></div>
 		<div data-menuanchor="references" class="werpol-menu-item"><a href="#8">REFERENCJE</a></div>
 		<div data-menuanchor="contact" class="werpol-menu-item"><a href="#9">KONTAKT</a></div>
+		<div class="werpol-menu-thumb" onclick="toggleMobileMenu()">
+			<svg width="30" height="26" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M1 1H16" stroke="white" stroke-width="2" stroke-linecap="round"/>
+				<path d="M1 7H16" stroke="white" stroke-width="2" stroke-linecap="round"/>
+				<path d="M1 13H16" stroke="white" stroke-width="2" stroke-linecap="round"/>
+			</svg>
+		</div>
+	</div>
+
+	<div id="mobile-menu" class="werpol-mobile-menu werpol-mobile-menu-hidden no-scroll">
+		<div class="werpol-carousel" >
+			<div class="werpol-carousel-slide">
+				<div data-menuanchor="about" class="werpol-mobile-menu-item" onclick="toggleMobileMenu()"><a href="#2">O NAS</a></div>
+				<div data-menuanchor="offer" class="werpol-mobile-menu-item" onclick="toggleMobileMenu()"><a href="#3">OFERTA</a></div>
+				<div data-menuanchor="equipment" class="werpol-mobile-menu-item" onclick="toggleMobileMenu()"><a href="#4">SPRZĘTY</a></div>
+				<div data-menuanchor="implementations" class="werpol-mobile-menu-item" onclick="toggleMobileMenu()"><a href="#5">REALIZACJE</a></div>
+				<div data-menuanchor="references" class="werpol-mobile-menu-item" onclick="toggleMobileMenu()"><a href="#8">REFERENCJE</a></div>
+				<div data-menuanchor="contact" class="werpol-mobile-menu-item" onclick="toggleMobileMenu()"><a href="#9">KONTAKT</a></div>
+			</div>
+		</div>
 	</div>
 
 	<!-- fullPage.js HTML -->
@@ -195,7 +215,6 @@ z wykorzystaniem najnowszych, sprawdzonych technologii; budowa domów pod klucz 
 							<div class="werpol-equipment-tile-text">
 								Posiadamy własny sprzęt transportowy.
 							</div>
-							<img class="werpol-equipment-tile-img" alt="" src="transport-wlasny.png"></img>
 						</div>
 					</div>
 				  </div>
@@ -582,31 +601,19 @@ z wykorzystaniem najnowszych, sprawdzonych technologii; budowa domów pod klucz 
 				</div>
 			  </div>
 		</div>
-		<div class="section">
-			<div class="werpol-section werpol-images">
-				<div class="werpol-images-container js-scroll fade-in">
-				  <h3 class="werpol-images-title">ZDJĘCIA</h3>
-				  <div class="werpol-images-grid">
-					<a class="werpol-images-image" data-fslightbox="gallery" href="x.png"><img alt="" src="x.png"></a>
-						
-					<a class="werpol-images-image" data-fslightbox="gallery" href="WhatsApp Image 2022-09-01 at 10.30.png"><img alt="" src="WhatsApp Image 2022-09-01 at 10.30.png"></a>
-
-					<a class="werpol-images-image" data-fslightbox="gallery" href="WhatsApp Image 2022-11-14 at 09.36.png"><img alt="" src="WhatsApp Image 2022-11-14 at 09.36.png"></a>
-
-					<a class="werpol-images-image" data-fslightbox="gallery" href="39497b7f-26d4-4605-b2e8-455e10f216fd.png"><img alt="" src="39497b7f-26d4-4605-b2e8-455e10f216fd.png"></a>
-
-					<a class="werpol-images-image" data-fslightbox="gallery" href="IMG_3061.png"><img alt="" src="IMG_3061.png"></a>
-
-					<a class="werpol-images-image" data-fslightbox="gallery" href="3104162f-d3eb-49d5-a80d-616e4920a4e0.png"><img alt="" src="3104162f-d3eb-49d5-a80d-616e4920a4e0.png"></a>
-					
-					<!-- <img class="werpol-images-image" alt="" src="IMG_3038.jpeg">
-					
-					<img class="werpol-images-image" alt="" src="ce4b4ae9-a6ba-42be-84b5-5caf6f7f25fd.jpeg">
-					
-					<img class="werpol-images-image" alt="" src="IMG_3028.jpeg"> -->
-				  </div>
-				</div>
-			  </div>
+		<div class="section werpol-images-gallery">
+			<div class="slide" class="werpol-images-image"></div>
+			<div class="slide" class="werpol-images-image"></div>
+			<div class="slide" class="werpol-images-image"></div>
+			<div class="slide" class="werpol-images-image"></div>
+			<div class="slide" class="werpol-images-image"></div>
+			<div class="slide" class="werpol-images-image"></div>
+			<div class="slide" class="werpol-images-image"></div>
+			<div class="slide" class="werpol-images-image"></div>
+			<div class="slide" class="werpol-images-image"></div>
+			<div class="slide" class="werpol-images-image"></div>
+			<div class="slide" class="werpol-images-image"></div>
+			<div class="slide" class="werpol-images-image"></div>
 		</div>
 		<div class="section">
 			<div class="slide">
@@ -681,11 +688,19 @@ z wykorzystaniem najnowszych, sprawdzonych technologii; budowa domów pod klucz 
 					<a onclick="showReference(this, 'viacon')"><img class="werpol-references-preview-company" alt="" src="ViaCon-logo-orange.png"></a>
 					<a onclick="showReference(this, 'plusminus')"><img class="werpol-references-preview-company" alt="" src="PLUS MINUS ENGINEERING.png"></a>
 					<a onclick="showReference(this, 'lear')"><img class="werpol-references-preview-company" alt="" src="kisspng-lear-corporation-logo-nyse-lea-car-5ae5f5de9172b2 1.png"></a>
-					<a onclick="showReference(this, 'azpiaran')"><img class="werpol-references-preview-company" alt="" src="azpiaran-polska-sp-z-oo.png"></a>
 					<a onclick="showReference(this, 'maflow')"><img class="werpol-references-preview-company" alt="" src="6E2FA7AA 1.png"></a>
 				  </div>
 				  <div class="werpol-references-preview-references">
-					<img id="werpol-references" src="zasław_referencje 1.png"></img>
+					<a id="zasław-references" data-fslightbox="references" href="zasław_referencje 1.png"><img src="zasław_referencje 1.png"></img></a>
+					<a style="display:none;" id="maspex-references" data-fslightbox="references" href="maspex-referencje.jpg"><img src="maspex-referencje.jpg"></img></a>
+					<a style="display:none;" id="valeo-references" data-fslightbox="references" href="valeo-referencje.jpg"><img src="valeo-referencje.jpg"></img></a>
+					<a style="display:none;" id="ta-references" data-fslightbox="references" href="ta-referencje.jpg"><img src="ta-referencje.jpg"></img></a>
+					<a style="display:none;" id="ardagh-references" data-fslightbox="references" href="ardagh-referencje.jpg"><img src="ardagh-referencje.jpg"></img></a>
+					<a style="display:none;" id="rockwell-references" data-fslightbox="references" href="rockwell-referencje.jpg"><img src="rockwell-referencje.jpg"></img></a>
+					<a style="display:none;" id="viacon-references" data-fslightbox="references" href="viacon-referencje.jpg"><img src="viacon-referencje.jpg"></img></a>
+					<a style="display:none;" id="plusminus-references" data-fslightbox="references" href="plusminus-referencje.jpg"><img src="plusminus-referencje.jpg"></img></a>
+					<a style="display:none;" id="lear-references" data-fslightbox="references" href="lear-referencje.jpg"><img src="lear-referencje.jpg"></img></a>
+					<a style="display:none;" id="maflow-references" data-fslightbox="references" href="maflow-referencje.jpg"><img src="maflow-referencje.jpg"></img></a>
 				  </div>
 				</div>
 				<h3 class="werpol-references-title werpol-references-marquee-title">ZAUFALI NAM RÓWNIEŻ</h3>
@@ -817,7 +832,7 @@ z wykorzystaniem najnowszych, sprawdzonych technologii; budowa domów pod klucz 
 								<br />
 								<p class="werpol-footer-container-text">
 									poniedziałek - piątek
-									8:00 – 16:00
+									8:00 - 16:00
 								</p>
 								<br />
 								<p class="werpol-footer-container-title">
@@ -835,7 +850,7 @@ z wykorzystaniem najnowszych, sprawdzonych technologii; budowa domów pod klucz 
 								<br />
 								<p class="werpol-footer-container-images">
 									<a href="https://www.facebook.com/lksjawiszowice51/" target="_blank"><img class="werpol-footer-container-image" src="316950466_569730825157269_7102721484477063513_n.png" alt="LKS Jawiszowice" /></a>
-									<a href="https://www.mammarzenie.org/marzyciele?status=spelnione&branch=krakow" target="_blank"><img class="werpol-footer-container-image" src="6be10317c26f4d649d1e8ea3c2000c3b.png" alt="Fundacja Mam Marzenie" /></a>
+									<a href="https://www.mammarzenie.org/marzyciele?status=spelnione&branch=krakow" target="_blank"><img class="werpol-footer-container-image" src="6be10317c26f4d649d1e8ea3c20g00c3b.png" alt="Fundacja Mam Marzenie" /></a>
                             		
 								</p>
 						  </div>
@@ -854,210 +869,23 @@ z wykorzystaniem najnowszych, sprawdzonych technologii; budowa domów pod klucz 
 			  </div>
 		</div>
 	</div>
-
-  	<div id="app" class="werpol-1">
-
-
-    		<div class="werpol-1-child">
-    		</div>
-    		<div class="relokacje-maszyn-i-container">
-      			<p class="kompletny-zakresu-naszej">RELOKACJE MASZYN I ZAKŁADÓW</p>
-      			<p class="kompletny-zakresu-naszej">PRODUKCYJNYCH</p>
-    		</div>
-    		<div class="polska-europa">POLSKA - EUROPA - ŚWIAT</div>
-    		
-    		<img class="e2fa7c7-icon" alt="" src="6E2FA7C7.png">
-    		
-    		<!-- <img class="switch10-icon" alt="" src="switch10.png"> -->
-    		
-    		<div class="werpol-1-child7" data-scroll-to="rectangle1">
-    		</div>
-    		
-    		<div class="siedziba-ul-gen-container">
-      			<p class="kontakt">
-        				<b>SIEDZIBA </b>
-      			</p>
-      			<p class="kompletny-zakresu-naszej">
-        				<b>&nbsp;</b>
-      			</p>
-      			<p class="ul-gen-w">ul. Gen. W. Sikorskiego 20</p>
-      			<p class="ul-gen-w">32-540 Trzebinia</p>
-      			<p class="ul-gen-w">&nbsp;</p>
-      			<p class="ul-gen-w">&nbsp;</p>
-      			<p class="kontakt">
-        				<b>OTWARTE</b>
-      			</p>
-      			<p class="kompletny-zakresu-naszej">
-        				<span>
-          					<span class="mariusz-rostkowski1">&nbsp;</span>
-        				</span>
-      			</p>
-      			<p class="kompletny-zakresu-naszej">
-        				<span>
-          					<span class="mariusz-rostkowski1">poniedziałek - piątek</span>
-        				</span>
-      			</p>
-      			<p class="kompletny-zakresu-naszej">
-        				<span>
-          					<span class="mariusz-rostkowski1">8:00 – 16:00</span>
-        				</span>
-      			</p>
-      			<p class="kompletny-zakresu-naszej">
-        				<span>
-          					<span class="span">&nbsp;</span>
-        				</span>
-      			</p>
-      			<p class="kompletny-zakresu-naszej">
-        				<span>
-          					<span class="span">&nbsp;</span>
-        				</span>
-      			</p>
-      			<p class="kontakt">
-        				<b>DANE FIRMY</b>
-      			</p>
-      			<p class="vat-no-nip">&nbsp;</p>
-      			<p class="vat-no-nip">(Vat No.) NIP PL 549-239-45-26</p>
-      			<p class="vat-no-nip">REGON 121192313</p>
-      			<p class="vat-no-nip">&nbsp;</p>
-      			<p class="vat-no-nip">&nbsp;</p>
-      			<p class="kontakt">
-        				<b>WSPIERAMY</b>
-                        <div class="wspieramy">
-                            <img class="wspieramy-jawiszowice" src="316950466_569730825157269_7102721484477063513_n.png" alt="JKS" />
-                            <img class="wspieramy-fundacja" src="6be10317c26f4d649d1e8ea3c2000c3b.png" alt="JKS" />
-                        </div>
-      			</p>
-      			<p class="vat-no-nip">&nbsp;</p>
-    		</div>
-    		<img class="e2fa7e4-1-icon" alt="" src="6E2FA7E4 1.png">
-    		
-    		<!-- <div class="firma-werpol-rozpocza-container">
-      			<p class="kompletny-zakresu-naszej">Firma Werpol rozpoczęła swoją działalność 20 lipca 2007 roku jako Przedsiębiorstwo Usługowo-Handlowe prowadzone przez Joannę Łysoń pod nazwą P.U.H. Werpol. Początkowo zlokalizowana w Jawiszowicach, firma szybko zyskała uznanie i zaufanie klientów, co zaowocowało przekształceniem się 1 maja 2010 roku w spółkę cywilną.</p>
-      			<p class="kompletny-zakresu-naszej">Od tamtej pory firma stale rozwijała swoje możliwości i zasoby, a w 2019 roku przeniosła swoją siedzibę do Trzebini, gdzie znajduje się obecnie pod adresem ul. Gen. Sikorskiego 20. Nasza firma to nie tylko historia sukcesu, ale przede wszystkim zespół wysoko wykwalifikowanych monterów maszyn oraz konstrukcji stalowych. Dzięki naszemu potencjałowi i bogatemu doświadczeniu jesteśmy w stanie świadczyć usługi najwyższej jakości, cechujące się starannością i perfekcją. Specjalizujemy się w montażu obiektów i struktur o konstrukcji stalowej, systemów wentylacyjnych, orurowania przemysłowego oraz urządzeń transportu bliskiego w przemyśle samochodowym. Ponadto oferujemy usługi relokacji maszyn i urządzeń przemysłowych oraz kompleksowe usługi ogólnobudowlane. Nasze usługi obejmują także rozruch linii technologicznych, obsługę utrzymania ruchu oraz podłączenia instalacji elektrycznych. Firma Werpol specjalizuje się również w kompleksowej realizacji inwestycji budowlanych w zakresie budownictwa mieszkalnego</p>
-      			<p class="kompletny-zakresu-naszej">i przemysłowego. Jesteśmy dumni z naszego dorobku i zawsze dążymy do spełnienia oczekiwań naszych klientów poprzez profesjonalizm, terminowość i indywidualne podejście do każdego projektu.</p>
-      			<p class="kompletny-zakresu-naszej">&nbsp;</p>
-      			<p class="kompletny-zakresu-naszej">Jeśli szukasz partnera, który zagwarantuje Ci wysoką jakość usług budowlanych i montażowych, to Werpol jest najlepszym wyborem.</p>
-    		</div> -->
-    		<!-- <div class="a1e73-9468-48b4-8039-77f611672-parent">
-      			<img class="a1e73-9468-48b4-8039-77f611672-icon" alt="" src="774a1e73-9468-48b4-8039-77f61167209f - frame at 0m3s.png" id="a1e73946848b4803977f611672Image">
-      			
-      			<img class="db314abd-e49d-46e9-9b91-15de9e-icon" alt="" src="db314abd-e49d-46e9-9b91-15de9e68cde7.png">
-      			
-      			<img class="img-3056-icon" alt="" src="IMG_3056.png">
-      			
-      			<img class="d7d0927a-b880-4078-a16b-949300-icon" alt="" src="d7d0927a-b880-4078-a16b-94930067cd35.png">
-      			
-      			<img class="f1e1-b24e-4ec1-911d-45fca6d7ad-icon" alt="" src="4504f1e1-b24e-4ec1-911d-45fca6d7ad2b.png">
-      			
-      			<img class="img-3054-icon" alt="" src="IMG_3054.png">
-      			
-      			<img class="img-3033-icon" alt="" src="IMG_3033.jpeg">
-      			
-      			<img class="img-3035-icon" alt="" src="IMG_3035.jpeg">
-      			
-    		</div> -->
-    		<!-- <div class="zdjcia">ZDJĘCIA</div>
-    		<div class="filmy">FILMY</div> -->
-    		<!-- <img class="group-icon" alt="" src="Group 30.svg"> -->
-    		
-    		<!-- <img class="werpol-1-child8" alt="" src="Group 31.svg"> -->
-    		
-    		<!-- <img class="werpol-1-child9" alt="" src="Group 32.svg"> -->
-    		
-    		<!-- <img class="zasaw-referencje-1-icon" alt="" src="zasław_referencje 1.png"> -->
-    		
-    		<!-- <b class="zaufali-nam-rwnie">ZAUFALI NAM RÓWNIEŻ</b> -->
-    		<!-- <div class="azpiaran-polska-sp-z-oo-parent">
-      			<img class="azpiaran-polska-sp-z-oo-icon" alt="" src="azpiaran-polska-sp-z-oo.png">
-      			
-      			<img class="kisspng-lear-corporation-logo-icon" alt="" src="kisspng-lear-corporation-logo-nyse-lea-car-5ae5f5de9172b2 1.png">
-      			
-      			<img class="viacon-logo-orange-icon" alt="" src="ViaCon-logo-orange.png">
-      			
-      			<img class="ardagh-group-logo-portrait-1-icon" alt="" src="ardagh-group-logo-portrait 1.png">
-      			
-      			<img class="e2fa7c3-1-icon" alt="" src="6E2FA7C3 1.png">
-      			
-      			<img class="plus-minus-engineering" alt="" src="PLUS MINUS ENGINEERING.png">
-      			
-      			<img class="e2fa7aa-1-icon" alt="" src="6E2FA7AA 1.png">
-      			
-      			<img class="ta-1-icon" alt="" src="ta 1.png">
-      			
-      			<img class="nowe-logo-maspex-icon" alt="" src="nowe-logo-maspex.png">
-      			
-      			<img class="e2fa7c1-1-icon" alt="" src="6E2FA7C1 1.png">
-      			
-      			<img class="e2fa7ad-icon" alt="" src="6E2FA7AD.png">
-      			
-    		</div> -->
-    		<!-- <img class="frame-icon" alt="" src="Frame 6.svg"> -->
-    		
-    		<!-- <b class="refenercje" data-scroll-to="rEFENERCJEText">REFENERCJE</b> -->
-    		
-    		<img class="flag-6339160-1920-icon" alt="" src="flag-6339160_1920.png">
-    		
-    		<img class="germany-4894687-1920-icon" alt="" src="germany-4894687_1920.png">
-    		
-    		<img class="union-jack-26119-1920-icon" alt="" src="union-jack-26119_1920.png">
-    		
-    		<img class="union-jack-26119-1920-icon1" alt="" src="union-jack-26119_1920.png">
-    		
-    		<img class="union-jack-26119-1920-icon2" alt="" src="union-jack-26119_1920.png">
-    		
-    		<div class="relokacje-maszyn-i-zakadw-pr-parent">
-      			<div class="kompleksowa-realizacja-prac-container">
-        				<p class="kompletny-zakresu-naszej">KOMPLEKSOWA REALIZACJA PRAC</p>
-        				<p class="kompletny-zakresu-naszej">MONTAŻOWO-BUDOWLANYCH</p>
-      			</div>
-      			<div class="montae-przemysowe">MONTAŻE PRZEMYSŁOWE</div>
-      			<div class="utrzymanie-ruchu1">UTRZYMANIE RUCHU</div>
-      			<div class="wasne-zaplecze-techniczne">WŁASNE ZAPLECZE TECHNICZNE</div>
-      			<div class="wykwalifikowana-oraz-niezawodn-container">
-        				<p class="kompletny-zakresu-naszej">WYKWALIFIKOWANA ORAZ</p>
-        				<p class="kompletny-zakresu-naszej">
-          					<span class="niezawodna-kadra1">NIEZAWODNA KADRA                          </span>
-          					<span class="span6"> .</span>
-        				</p>
-      			</div>
-      			<div class="od-fundamentw-po">OD FUNDAMENTÓW PO DACH</div>
-      			<div class="konstrukcje-stalowe-i-container">
-        				<p class="kompletny-zakresu-naszej">KONSTRUKCJE STALOWE I INSTALACJE</p>
-        				<p class="kompletny-zakresu-naszej">ZASILAJĄCE</p>
-      			</div>
-      			<div class="wsparcie-linii-produkcyjnych-container">
-        				<p class="kompletny-zakresu-naszej">WSPARCIE LINII PRODUKCYJNYCH ORAZ</p>
-        				<p class="kompletny-zakresu-naszej">PRACE SERWISOWO-REMONTOWE</p>
-      			</div>
-      			<div class="sprzt-montaowy-i-container">
-        				<p class="kompletny-zakresu-naszej">SPRZĘT MONTAŻOWY I BAZA </p>
-        				<p class="kompletny-zakresu-naszej">TRANSPORTOWA</p>
-      			</div>
-      			<div class="najlepsi-specjalici-w">NAJLEPSI SPECJALIŚCI W SWOJEJ BRANŻY</div>
-    		</div>
-    		<div class="werpol-1-child24" id="rectangle25">
-    		</div>
-    		<div class="strefa-pracownika">STREFA PRACOWNIKA</div>
-    		</div>
   	</div>
   	<script type="text/javascript">
-		const referenceNames = {
-			zasław: './zasław_referencje 1.png',
-			valeo: 'https://werpol.pl/wp-content/uploads/2015/08/001-745x1024.jpg',
-			rockwell: 'https://werpol.pl/wp-content/uploads/2015/08/rockwel.jpg',
-			lear: 'https://werpol.pl/wp-content/uploads/2015/08/lear.jpg',
-			maflow: 'https://werpol.pl/wp-content/uploads/2015/08/Maflow1.jpg',
-			ta: 'https://werpol.pl/wp-content/uploads/2015/08/ta_hydrofonic.jpg',
-			plusminus: 'https://werpol.pl/wp-content/uploads/2015/09/plus_minus.jpg',
+		let shownReference = 'zasław';
+		function showReference(that, name) {
+			document.getElementById(shownReference + '-references').style = 'display:none;'
+			document.getElementById(name + '-references').style = 'display:block;max-height: 100%;'
+			shownReference = name;
 		}
 
-		function showReference(that, name) {
-			if(referenceNames[name]) {
-				document.getElementById('werpol-references').src = referenceNames[name]
+		let isMobileMenuVisible = false;
+		function toggleMobileMenu() {
+			if(isMobileMenuVisible) {
+				document.getElementById('mobile-menu').classList.remove('werpol-mobile-menu-hidden')
 			} else {
-				document.getElementById('werpol-references').src = ''
+				document.getElementById('mobile-menu').classList.add('werpol-mobile-menu-hidden')
 			}
-			
+			isMobileMenuVisible = !isMobileMenuVisible;
 		}
 
 	</script>
