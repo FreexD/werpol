@@ -1,7 +1,8 @@
 import 'fslightbox'
 
+let nextSlideTimeout = null;
 
-new fullpage('#app', {
+const fullPageApi = new fullpage('#app', {
     menu: '.werpol-menu',
     anchors: ['intro', 'about', 'offer', 'equipment', 'implementations', 'images', 'movies', 'references', 'contact'],
     
@@ -16,6 +17,34 @@ new fullpage('#app', {
     controlArrows: false,
 
     normalScrollElements: '.normal-scroll',
+
+    afterSlideLoad: function( section, origin, destination, direction, trigger){
+        console.log('test123 afterSlideLoad', section, origin, destination, direction, trigger);
+        if(section.anchor === 'intro') {
+            if(nextSlideTimeout) {
+                nextSlideTimeout && clearTimeout(nextSlideTimeout);
+                nextSlideTimeout = null;
+            }
+            nextSlideTimeout = setTimeout(() => fullPageApi.moveSlideRight(), 5000);
+        } else {
+            nextSlideTimeout && clearTimeout(nextSlideTimeout);
+            nextSlideTimeout = null;
+        }
+    },
+
+    afterLoad: function( origin, destination, direction, trigger){
+        console.log('test123 afterLoad', origin, destination, direction, trigger);
+        if( destination.anchor === 'intro') {
+            if(nextSlideTimeout) {
+                nextSlideTimeout && clearTimeout(nextSlideTimeout);
+                nextSlideTimeout = null;
+            }
+            nextSlideTimeout = setTimeout(() => fullPageApi.moveSlideRight(), 5000);
+        } else {
+            nextSlideTimeout && clearTimeout(nextSlideTimeout);
+            nextSlideTimeout = null;
+        }
+    },
 
     // Get your license at https://alvarotrigo.com/fullPage/pricing
     licenseKey: 'xxxxxxxxxxxxxxxxxxxxxxxxx'
