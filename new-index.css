@@ -40,6 +40,28 @@ h1{
     background-image: url('/6E2FA7C7.png');
 }
 
+.fp-arrow {
+    border: 1px solid #1b1918 !important;
+    width: clamp(30px, 4vw, 60px);
+    height: clamp(30px, 4vw, 60px);
+    background-size: cover;
+    background-color: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
+    box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
+}
+
+.fp-arrow.fp-next {
+    background-image: url('/chevron-right.svg');
+    display: none;
+}
+
+.fp-arrow.fp-prev {
+    background-image: url('/chevron-left.svg');
+    display: none;
+}
+
 .section,
 .slide{
     background-size: cover;
@@ -549,63 +571,119 @@ body {
 }
 
 .werpol-images-gallery .fp-slide:nth-child(1) {
-    background-image: url('/images/IMG_3034.jpg');
+    background-image: url('/images/Relokacja pras hydraulicznych Azpiaran 09.2024.jpg');
 }
 
 .werpol-images-gallery .fp-slide:nth-child(2) {
-    background-image: url('/images/253bc1e7-fa83-4b26-8521-cc3b6feee11c.jpg');
+    background-image: url('/images/Relokacja pras hydraulicznych Azpiaran 09.2024_1.jpg');
 }
 
 .werpol-images-gallery .fp-slide:nth-child(3) {
-    background-image: url('/images/IMG_3030.jpg');
+    background-image: url('/images/Relokacja pras hydraulicznych Azpiaran 09.2024_2.jpg');
 }
 
 .werpol-images-gallery .fp-slide:nth-child(4) {
-    background-image: url('/images/WhatsApp Image 2022-02-08 at 16.00.20.jpg');
+    background-image: url('/images/Relokacja pras hydraulicznych Azpiaran 09.2024_3.jpg');
 }
 
 .werpol-images-gallery .fp-slide:nth-child(5) {
-    background-image: url('/images/IMG_3054.jpg');
+    background-image: url('/images/Relokacja pras hydraulicznych Azpiaran 09.2024_4.jpg');
 }
 
 .werpol-images-gallery .fp-slide:nth-child(6) {
-    background-image: url('/images/WhatsApp Image 2022-09-21 at 15.12.58.jpg');
+    background-image: url('/images/Relokacja pras hydraulicznych Azpiaran 09.2024_5.jpg');
 }
 
 .werpol-images-gallery .fp-slide:nth-child(7) {
-    background-image: url('/images/WhatsApp Image 2022-10-27 at 13.29.23.jpg');
+    background-image: url('/images/Transport wielkogabarytowy prasy 90ton.jpg');
 }
 
 .werpol-images-gallery .fp-slide:nth-child(8) {
-    background-image: url('/images/3104162f-d3eb-49d5-a80d-616e4920a4e0.jpg');
+    background-image: url('/images/Transport wielkogabarytowy prasy 90ton_1.jpg');
 }
 
 .werpol-images-gallery .fp-slide:nth-child(9) {
-    background-image: url('/images/39497b7f-26d4-4605-b2e8-455e10f216fd.jpg');
+    background-image: url('/images/Relokacja pras Viacon 2022_1.jpg');
 }
 
 .werpol-images-gallery .fp-slide:nth-child(10) {
-    background-image: url('/images/4c89960b-83c0-46a8-b062-bf1aef46195b.jpg');
+    background-image: url('/images/Relokacja pras Viacon 2022_2.jpg');
 }
 
 .werpol-images-gallery .fp-slide:nth-child(11) {
-    background-image: url('/images/4e7975d8-18c0-48a3-9327-1f30ad8a2e9b.jpg');
+    background-image: url('/images/Relokacja pras Viacon 2022_3.jpg');
 }
 
 .werpol-images-gallery .fp-slide:nth-child(12) {
-    background-image: url('/images/5fc54e5a-7849-4434-8b21-b84fe898a170.jpg');
+    background-image: url('/images/Relokacja pras Viacon 2022_4.jpg');
 }
 
 .werpol-images-gallery .fp-slide:nth-child(13) {
-    background-image: url('/images/bef73301-1371-49a7-983b-c455025d6176.jpg');
+    background-image: url('/images/Relokacja pras Viacon 2022_5.jpg');
 }
 
 .werpol-images-gallery .fp-slide:nth-child(14) {
-    background-image: url('/images/cd95352e-9031-4663-a65f-13b1ca242136.jpg');
+    background-image: url('/images/Relokacja pras Viacon 2022_6.jpg');
 }
 
 .werpol-images-gallery .fp-slide:nth-child(15) {
-    background-image: url('/images/ce4b4ae9-a6ba-42be-84b5-5caf6f7f25fd.jpg');
+    background-image: url('/images/Relokacja maszyn spawajacych Lear 2022_1.jpg');
+}
+
+.werpol-images-gallery .fp-slide:nth-child(16) {
+    background-image: url('/images/Relokacja maszyn spawajacych Lear 2022_2.jpg');
+}
+
+.werpol-images-gallery .fp-slide:nth-child(17) {
+    background-image: url('/images/Relokacja maszyn spawajacych Lear 2022_3.jpg');
+}
+
+.werpol-images-gallery .fp-slide:nth-child(18) {
+    background-image: url('/images/Demontaż linii produkcyjnej Maspex 2021_1.jpg');
+}
+
+.werpol-images-gallery .fp-slide:nth-child(19) {
+    background-image: url('/images/Demontaż linii produkcyjnej Maspex 2021_2.jpg');
+}
+
+.werpol-images-gallery .fp-slide:nth-child(20) {
+    background-image: url('/images/Demontaż linii produkcyjnej Maspex 2021_3.jpg');
+}
+
+.werpol-images-gallery .fp-slide:nth-child(21) {
+    background-image: url('/images/Demontaż linii produkcyjnej Maspex 2021_4.jpg');
+}
+
+.werpol-images-gallery .fp-slide:nth-child(22) {
+    background-image: url('/images/Demontaż linii produkcyjnej Maspex 2021_5.jpg');
+}
+
+.werpol-images-gallery .fp-slide:nth-child(23) {
+    background-image: url('/images/Relokacja pras Bosch 2020_1.jpg');
+}
+
+.werpol-images-gallery .fp-slide:nth-child(24) {
+    background-image: url('/images/Relokacja pras Bosch 2020_2.jpg');
+}
+
+.werpol-images-gallery .fp-slide:nth-child(25) {
+    background-image: url('/images/Relokacja pras Bosch 2020_3.jpg');
+}
+
+.werpol-images-gallery .fp-slide:nth-child(26) {
+    background-image: url('/images/Relokacja pras Bosch 2020_4.jpg');
+}
+
+.werpol-images-gallery .fp-slide:nth-child(27) {
+    background-image: url('/images/Demontaż maszyn Lear 2012_1.jpg');
+}
+
+.werpol-images-gallery .fp-slide:nth-child(28) {
+    background-image: url('/images/Demontaż maszyn Lear 2012_2.jpg');
+}
+
+.werpol-images-gallery .fp-slide:nth-child(29) {
+    background-image: url('/images/Demontaż maszyn Lear 2012_3.jpg');
 }
 
 .werpol-images-gallery {
@@ -615,6 +693,18 @@ body {
 .werpol-images-gallery .slide {
     background-position: center center;
     background-size: contain;
+}
+
+.werpol-images-gallery .fp-slidesNav.fp-bottom {
+    display: none;
+}
+
+.werpol-images-gallery .fp-arrow.fp-next {
+    display: block;
+}
+
+.werpol-images-gallery .fp-arrow.fp-prev {
+    display: block;
 }
 
 .werpol-images {
@@ -639,21 +729,29 @@ body {
     justify-content: center;
 }
 
-/* .werpol-images-image {
-    border-radius: 30px;
-    min-width: 30%;
-    object-fit: cover;
-    flex-grow: 1;
+.werpol-images-gallery .fp-slide {
+    justify-content: flex-end;
+}
+
+.werpol-images-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.werpol-images-image-description {
+    margin-top: auto;
+    font-size: clamp(14px, 1.3vw, 25px);
+    font-weight: 500;
+    text-align: left;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(49, 39, 131, 0.75));
+    padding: clamp(14px, 1.3vw, 25px);
+    margin-bottom: clamp(12px, 1.3vw, 24px);
     -webkit-box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
     -moz-box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
     box-shadow: 9px 12px 21px -12px rgba(66, 68, 90, 1);
-} */
-
-/* .werpol-images-image img {
-    max-width: calc(100vw - 2rem);
-    height: 100%;
-    width: 100%;
-} */
+    border-radius: 4px;
+}
 
 .werpol-movies {
     display: flex;

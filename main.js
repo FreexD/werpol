@@ -14,12 +14,11 @@ const fullPageApi = new fullpage('#app', {
 
     css3: false,
 
-    controlArrows: false,
+    controlArrows: true,
 
     normalScrollElements: '.normal-scroll',
 
-    afterSlideLoad: function( section, origin, destination, direction, trigger){
-        console.log('test123 afterSlideLoad', section, origin, destination, direction, trigger);
+    afterSlideLoad: function( section, origin, destination, direction, trigger) {
         if(section.anchor === 'intro') {
             if(nextSlideTimeout) {
                 nextSlideTimeout && clearTimeout(nextSlideTimeout);
@@ -33,7 +32,6 @@ const fullPageApi = new fullpage('#app', {
     },
 
     afterLoad: function( origin, destination, direction, trigger){
-        console.log('test123 afterLoad', origin, destination, direction, trigger);
         if( destination.anchor === 'intro') {
             if(nextSlideTimeout) {
                 nextSlideTimeout && clearTimeout(nextSlideTimeout);
